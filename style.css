@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+header {
+    background-color: #8acfcfb6;
+    color: #000000;
+    padding: 20px 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}

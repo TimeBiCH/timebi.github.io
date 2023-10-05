@@ -3,7 +3,12 @@ body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
 }
 header {
-    background-image:"line gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)";
+    background-image:rgb(34,193,195);
+    background-image: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background-image: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background-color: #000000;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
     color: #000000;
     padding: 20px 0;
 }

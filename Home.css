@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Monospace', Times, serif, sans-serif;
+    background-image: url(fondoblanco.png);
     background-size: cover;
 }
 

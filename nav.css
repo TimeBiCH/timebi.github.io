@@ -1,19 +1,19 @@
 *{
     margin: 0;
-    padding: 0;
-    color: #f2f5f7;
+    padding: 5;
+    color: #000000;
     font-family: sans-serif;
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: 750;
 }
 body{
     overflow-x: hidden;
 }
 nav{
-    height: 6rem;
+    height: 4rem;
     width: 100vw;
     background-image: url(FondodelNAV.png);
-    box-shadow: 0 3px 20px rgba(215, 121, 121, 0.2);
+    box-shadow: 0 3px 20px rgb(23, 77, 255);
     display: flex;
     position: fixed;
     z-index: 10;
@@ -25,8 +25,8 @@ nav{
     text-align: center;
 }
 .logo img {
-    height: 5rem;
-    width: 5rem;
+    height: 3rem;
+    width: 7rem;
 }
 
 /*Styling Links*/

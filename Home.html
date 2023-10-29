@@ -28,7 +28,7 @@
             <li><a href="About.html">ABOUT</a></li>
             <li><a href="Help.html">HELP</a></li>
             <li><a href="Contact.html">CONTACT</a></li>
-            <li><button class="login-button" href="Login.html">Login</button></li>
+            <li><button class="login-button" href="Login.html">LOGIN</button></li>
         </ul>
     </nav>
     <script src="nav.js"></script>
@@ -94,8 +94,25 @@
             </a>
           </div> 
         <img class="SombraParaElCel1" style="width: 486px; height: 106px; left: 820px; top: 804px; position: absolute" src="sombra para el cel.png" />
-        <img class="Telefono3d1" style="width: 465px; height: 839px; left: 820px; top: 33px; position: absolute" src="Telefono3d.png" />
-      </div>
-
+        <style>
+          /* Define la animación de palpitación */
+          @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+          }
+        
+          /* Aplica la animación al objeto que deseas hacer palpitar */
+          .Telefono3d1 {
+            animation: pulse 1s infinite; /* 1s controla la velocidad de la animación */
+          }
+        </style>
+        </head>
+        <body>
+        
+        <!-- Agrega un objeto que palpite -->
+        <div>
+          <img class="Telefono3d1" style="width: 465px; height: 839px; left: 820px; top: 33px; position: absolute" src="Telefono3d.png" />
+        </div>
 </body>
 </html>

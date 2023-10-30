@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 5;
-    color: #000000;
-    font-family: sans-serif;
+    color: #FF914D;
+    font-family: sans-serif; 
     letter-spacing: 1px;
     font-weight: 750;
 }
@@ -12,8 +12,8 @@ body{
 nav{
     height: 4rem;
     width: 100vw;
-    background-image: url(FondodelNAV.png);
-    box-shadow: 0 3px 20px rgb(23, 77, 255);
+    background-image: url(5.png);
+    box-shadow: 0 3px 20px rgb(62, 59, 255);
     display: flex;
     position: fixed;
     z-index: 10;
@@ -66,7 +66,7 @@ nav{
 /*Styling Buttons*/
 .login-button{
     background-color: transparent;
-    border: 1.5px solid #f2f5f7;
+    border: 1.5px solid #FF914D;
     border-radius: 2em;
     padding: 0.6rem 0.8rem;
     margin-left: 2vw;
@@ -76,8 +76,8 @@ nav{
 }
 .login-button:hover {
     color: #131418;
-    background-color: #f2f5f7;
-    border:1.5px solid #f2f5f7;
+    background-color: #FF914D;
+    border:1.5px solid #FF914D;
     transition: all ease-in-out 350ms;
 }
 .join-button{
@@ -90,9 +90,9 @@ nav{
     cursor: pointer;
 }
 .join-button:hover {
-    color: #f2f5f7;
+    color: #f2f5f700;
     background-color: transparent;
-    border:1.5px solid #f2f5f7;
+    border:1.5px solid #FF914D;
     transition: all ease-in-out 350ms;
 }
 
@@ -100,7 +100,7 @@ nav{
 .hamburger div{
     width: 30px;
     height: 3px;
-    background: #f2f5f7;
+    background: #1379bd;
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -126,7 +126,7 @@ nav{
     }
     .nav-links{
         position: fixed;
-        background: #131418;
+        background: #14b0bb;
         height: 100vh;
         width: 100%;
         flex-direction: column;

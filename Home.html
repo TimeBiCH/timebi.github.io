@@ -102,7 +102,7 @@
             100% { transform: scale(1); }
           }
         
-          /* Animación al objeto para hacer palpitar */
+          /* animación al objeto hacer a palpitar */
           .Telefono3d1 {
             animation: pulse 1s infinite; /* 1s controla la velocidad de la animación */
           }
@@ -110,9 +110,11 @@
         </head>
         <body>
         
-        <!-- El objeto que palpite -->
-        <div>
-          <img class="Telefono3d1" style="width: 465px; height: 839px; left: 820px; top: 33px; position: absolute" src="Telefono3d.png" />
+        <!-- Agrega un objeto que palpite -->
+        <div style="position: relative; width: 1280px; height: 1024px;">
+          <video class="Video3d1" style="width: 465px; height: 839px; left: 820px; top: 33px; position: absolute;" autoplay loop>
+            <source src="Telefono en movimiento.mp4" type="video/mp4">
+          </video>
         </div>
 </body>
 </html>

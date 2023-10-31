@@ -2,7 +2,7 @@
     margin: 0;
     padding: 5;
     color: #FF914D;
-    font-family: sans-serif; 
+    font-family: "Times New Roman", Times, serif; 
     letter-spacing: 1px;
     font-weight: 750;
 }
@@ -20,14 +20,16 @@ nav{
 }
 
 /*Styling logo*/
-.logo{
-    padding:1vh 1vw;
+.logo {
+    padding: 0px 6px; /* Cambia 1vh y 1vw a 1px */
     text-align: center;
 }
+
 .logo img {
-    height: 3rem;
-    width: 7rem;
+    height: 65px; /* Cambia 5rem a 5px */
+    width: 82px; /* Cambia 7rem a 7px */
 }
+
 
 /*Styling Links*/
 .nav-links{
@@ -72,6 +74,7 @@ nav{
     margin-left: 2vw;
     font-size: 1rem;
     cursor: pointer;
+    font-family: "Times New Roman", Times, serif; 
 
 }
 .login-button:hover {

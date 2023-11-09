@@ -13,25 +13,26 @@ nav{
     height: 4rem;
     width: 100vw;
     background-image: url(5.png);
-    box-shadow: 0 3px 20px rgb(62, 59, 255);
+    box-shadow: 0 3px 20px rgb(33, 30, 213);
     display: flex;
     position: fixed;
     z-index: 10;
 }
 
-/*Styling logo*/
+/* Cambios del logo*/
 .logo {
-    padding: 0px 6px; /* Cambia 1vh y 1vw a 1px */
+    padding: 0px 6px; 
     text-align: center;
 }
 
 .logo img {
-    height: 65px; /* Cambia 5rem a 5px */
-    width: 82px; /* Cambia 7rem a 7px */
+    height: 65px; 
+    width: 82px; 
 }
 
 
-/*Styling Links*/
+/*Animaciones para las palabras o Links */
+
 .nav-links{
     display: flex;
     list-style: none; 
@@ -65,7 +66,7 @@ nav{
     width: 80%;
 }
 
-/*Styling Buttons*/
+     /*Animaciones de los botones*/
 .login-button{
     background-color: transparent;
     border: 1.5px solid #FF914D;
@@ -97,90 +98,4 @@ nav{
     background-color: transparent;
     border:1.5px solid #FF914D;
     transition: all ease-in-out 350ms;
-}
-
-/*Styling Hamburger Icon*/
-.hamburger div{
-    width: 30px;
-    height: 3px;
-    background: #1379bd;
-    margin: 5px;
-    transition: all 0.3s ease;
-}
-.hamburger{
-    display: none;
-}
-
-/*Stying for small screens*/
-@media screen and (max-width: 200px){
-    nav{
-        position: fixed;
-        z-index: 3;
-    }
-    .hamburger{
-        display:block;
-        position: absolute;
-        cursor: pointer;
-        right: 5%;
-        top: 50%;
-        transform: translate(-5%, -50%);
-        z-index: 2;
-        transition: all 0.7s ease;
-    }
-    .nav-links{
-        position: fixed;
-        background: #14b0bb;
-        height: 100vh;
-        width: 100%;
-        flex-direction: column;
-        clip-path: circle(50px at 90% -20%);
-        -webkit-clip-path: circle(50px at 90% -10%);
-        transition: all 1s ease-out;
-        pointer-events: none;
-    }
-    .nav-links.open{
-        clip-path: circle(1000px at 90% -10%);
-        -webkit-clip-path: circle(1000px at 90% -10%);
-        pointer-events: all;
-    }
-    .nav-links li{
-        opacity: 0;
-    }
-    .nav-links li:nth-child(1){
-        transition: all 0.5s ease 0.2s;
-    }
-    .nav-links li:nth-child(2){
-        transition: all 0.5s ease 0.4s;
-    }
-    .nav-links li:nth-child(3){
-        transition: all 0.5s ease 0.6s;
-    }
-    .nav-links li:nth-child(4){
-        transition: all 0.5s ease 0.7s;
-    }
-    .nav-links li:nth-child(5){
-        transition: all 0.5s ease 0.8s;
-    }
-    .nav-links li:nth-child(6){
-        transition: all 0.5s ease 0.9s;
-        margin: 0;
-    }
-    .nav-links li:nth-child(7){
-        transition: all 0.5s ease 1s;
-        margin: 0;
-    }
-    li.fade{
-        opacity: 1;
-    }
-}
-/*Animating Hamburger Icon on Click*/
-.toggle .line1{
-    transform: rotate(-45deg) translate(-5px,6px);
-}
-.toggle .line2{
-    transition: all 0.7s ease;
-    width:0;
-}
-.toggle .line3{
-    transform: rotate(45deg) translate(-5px,-6px);
 }

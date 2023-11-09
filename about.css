@@ -88,7 +88,7 @@
     word-wrap: break-word;
 }
 
-/* Managers */
+/* Managers Imagenes */
 .Jaoshhh1 {
     width: 243px;
     height: 445px;
@@ -121,8 +121,8 @@
     position: absolute;
 }
 
-/* Autoridades */
-.Advertising {
+/* Managers ESCRITURA */
+.Advertising1 {
     width: 152px;
     height: 62px;
     left: 127px;
@@ -164,7 +164,7 @@
     word-wrap: break-word;
 }
 
-.Advertising {
+.Advertising2 {
     width: 152px;
     height: 62px;
     left: 1115px;
@@ -177,6 +177,7 @@
     font-weight: 400;
     word-wrap: break-word;
 }
+
 
 /* Color de rectangulos */
 .Rectangle11 {

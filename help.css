@@ -1,3 +1,4 @@
+/* Carrusel */
 *{
     margin: 0;
     padding: 0;
@@ -69,6 +70,8 @@ body{
     
 }
 
+
+/* TAMAÑO IMAGENES  */
 @media screen and (max-width:300px){
     .contenido-slider > img{
         width: 300px;
@@ -82,7 +85,6 @@ body{
         font-size: 23px;
     }
 }
-
 
 @media screen and (max-width:100px){
     .contenido-slider{

@@ -1,4 +1,64 @@
 .SecurityChangeImprovement {
-    font-family: 'Amasis MT Pro Medium', sans-serif;
-  } 
-  
+  font-family: 'Amasis MT Pro Medium', sans-serif;
+} 
+
+.Home {
+  width: 1380px;
+  height: 1133px;
+  position: relative;
+  background: rgba(255, 255, 255, 0);
+}
+
+.CurvaturaCeleste1 {
+  width: 1380px;
+  height: 928px;
+  left: 0px;
+  top: 8px;
+  position: absolute;
+}
+
+.SecurityChangeImprovement {
+  width: 676px;
+  left: 14px;
+  top: 161px;
+  position: absolute;
+  mix-blend-mode: color-burn;
+  text-align: right;
+  color: black;
+  font-size: 80px;
+  font-family: Montserrat;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.Rectangle10 {
+  width: 1380px;
+  height: 236px;
+  left: 0px;
+  top: 936px;
+  position: absolute;
+  background: #1B1B1B;
+}
+
+.GuardingMomentsTrackingTime {
+  left: 99px;
+  top: 559px;
+  position: absolute;
+  color: black;
+  font-size: 32px;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.TimebiDigitalTime {
+left: 368px;
+top: 1082px;
+position: absolute;
+color: #807B7A;
+font-size: 12px;
+font-family: Inter;
+font-weight: 400;
+word-wrap: break-word;
+}

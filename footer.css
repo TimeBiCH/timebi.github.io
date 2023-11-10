@@ -1,0 +1,75 @@
+/* Estilos para el footer */
+.social-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.Gmail1,
+.Cel1,
+.Maps1,
+.Twitterlogo3,
+.PinterestLogo3 {
+    width: 20px;
+    height: 20px;
+}
+
+.social-icon a {
+    display: block;
+}
+
+.Facebooklogo1 {
+    top: 961px;
+    left: 631px;
+}
+
+.Youtubelogo1 {
+    top: 961px;
+    left: 759px;
+}
+
+.Gmail1 {
+    top: 1036px;
+    left: 396px;
+}
+
+.TimeBiCompanyCom {
+    top: 1038px;
+    left: 424px;
+}
+
+.teléfono {
+    top: 1038px;
+    left: 660px;
+}
+
+.Cel1 {
+    top: 1036px;
+    left: 640px;
+}
+
+.Maps1 {
+    top: 1036px;
+    left: 810px;
+}
+
+.Dirección {
+    top: 1038px;
+    left: 845px;
+}
+
+.Twitterlogo3 {
+    top: 962px;
+    left: 695px;
+}
+
+.PinterestLogo3 {
+    top: 962px;
+    left: 567px;
+}
+
+.TimebiDigitalTime {
+    position: absolute;
+    top: 1100px;
+    left: 300px;
+}

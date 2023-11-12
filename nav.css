@@ -13,7 +13,7 @@ nav{
     height: 4rem;
     width: 100vw;
     background-image: url(5.png);
-    box-shadow: 0 3px 20px rgb(33, 30, 213);
+    box-shadow: 0 3px 20px rgb(30, 27, 232);
     display: flex;
     position: fixed;
     z-index: 10;
@@ -21,13 +21,13 @@ nav{
 
 /* Cambios del logo*/
 .logo {
-    padding: 0px 6px; 
+    padding: 0px 5px; 
     text-align: center;
 }
 
 .logo img {
-    height: 65px; 
-    width: 82px; 
+    height: 70px; 
+    width: 115px; 
 }
 
 

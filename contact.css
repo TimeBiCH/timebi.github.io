@@ -1,0 +1,262 @@
+.Contact {
+    width: 1337px;
+    height: 1284px;
+    position: relative;
+    background: white;
+}
+
+.Fondo,
+.Rectangle4,
+.Rectangle1,
+.Rectangle2,
+.Gmail1,
+.Cel1,
+.Timebi,
+.numerodetelefono,
+.TimebiCompanyCom,
+.SayHiToUs,
+.Contact0505,
+.Rectangle3,
+.Submit,
+.Youtubelogo1,
+.Twitterlogo1,
+.Pinterestlogo1,
+.Facebooklogo1,
+.Maps1,
+.Gmail2,
+.Cel2,
+.TimebiDigital,
+.CentroSupRateFundaciNAlbertoMotta {
+    position: absolute;
+}
+
+.Fondo {
+    width: 1337px;
+    height: 1284px;
+    left: 0px;
+    top: 0px;
+}
+
+.Rectangle4 {
+    width: 1337px;
+    height: 235px;
+    left: 0px;
+    top: 1049px;
+    background: #1B1B1B;
+}
+
+.Rectangle1 {
+    width: 634px;
+    height: 693px;
+    left: 655px;
+    top: 197px;
+    background: linear-gradient(180deg, rgba(155, 196, 248, 0) 0%, rgba(145.12, 236.94, 231.43, 0.28) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 64px;
+}
+
+.Rectangle2 {
+    width: 552px;
+    height: 401px;
+    left: 696px;
+    top: 464px;
+    border-radius: 48px;
+}
+
+.Gmail1 {
+    width: 57px;
+    height: 42px;
+    left: 731px;
+    top: 391px;
+}
+
+.Cel1 {
+    width: 44px;
+    height: 44px;
+    left: 738px;
+    top: 318px;
+}
+
+.Timebi {
+    width: 183px;
+    height: 52px;
+    left: 696px;
+    top: 229px;
+    text-align: center;
+    color: black;
+    font-size: 54px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.numerodetelefono {
+    width: 287px;
+    height: 52px;
+    left: 809px;
+    top: 318px;
+    text-align: center;
+    color: black;
+    font-size: 41px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.TimebiCompanyCom {
+    width: 480px;
+    height: 52px;
+    left: 788px;
+    top: 388px;
+    text-align: center;
+    color: black;
+    font-size: 41px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.SayHiToUs {
+    width: 287px;
+    height: 52px;
+    left: 33px;
+    top: 355px;
+    text-align: center;
+    color: black;
+    font-size: 54px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Contact0505 {
+    left: 46px;
+    top: 318px;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Rectangle3 {
+    width: 623px;
+    height: 70px;
+    left: 13px;
+    top: 795px;
+    background: #D5535D;
+    border-radius: 41px;
+}
+
+.Submit {
+    left: 278px;
+    top: 811px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Youtubelogo1 {
+    width: 50px;
+    height: 50px;
+    left: 759px;
+    top: 1082px;
+}
+
+.Twitterlogo1 {
+    width: 50px;
+    height: 50px;
+    left: 682px;
+    top: 1082px;
+}
+
+.Pinterestlogo1 {
+    width: 50px;
+    height: 50px;
+    left: 528px;
+    top: 1082px;
+}
+
+.Facebooklogo1 {
+    width: 50px;
+    height: 50px;
+    left: 605px;
+    top: 1082px;
+}
+
+.Maps1 {
+    width: 21px;
+    height: 20px;
+    left: 809px;
+    top: 1153px;
+}
+
+.Gmail2 {
+    width: 21px;
+    height: 20px;
+    left: 299px;
+    top: 1153px;
+}
+
+.Cel2 {
+    width: 21px;
+    height: 20px;
+    left: 602px;
+    top: 1153px;
+}
+
+.TimebiCompanyCom {
+    width: 250px;
+    height: 26px;
+    left: 310px;
+    top: 1152px;
+    text-align: center;
+    color: #EE9732;
+    font-size: 20px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.numerodetelefono {
+    width: 158px;
+    height: 26px;
+    left: 617px;
+    top: 1152px;
+    text-align: center;
+    color: #EE9732;
+    font-size: 20px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.TimebiDigital {
+    width: 965px;
+    height: 26px;
+    left: 186px;
+    top: 1212px;
+    text-align: center;
+    color: #A09E9B;
+    font-size: 20px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.CentroSupRateFundaciNAlbertoMotta {
+    width: 350px;
+    height: 26px;
+    left: 812px;
+    top: 1150px;
+    text-align: center;
+    color: #EE9732;
+    font-size: 20px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}

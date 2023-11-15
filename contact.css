@@ -1,47 +1,24 @@
 .Contact {
-    width: 1337px;
-    height: 1284px;
+    width: 100%;
+    height: 100%;
     position: relative;
     background: white;
 }
 
-.Fondo,
-.Rectangle4,
-.Rectangle1,
-.Rectangle2,
-.Gmail1,
-.Cel1,
-.Timebi,
-.numerodetelefono,
-.TimebiCompanyCom,
-.SayHiToUs,
-.Contact0505,
-.Rectangle3,
-.Submit,
-.Youtubelogo1,
-.Twitterlogo1,
-.Pinterestlogo1,
-.Facebooklogo1,
-.Maps1,
-.Gmail2,
-.Cel2,
-.TimebiDigital,
-.CentroSupRateFundaciNAlbertoMotta {
+.Fondo {
+    width: 1337px;
+    height: 1203px;
+    left: 0px;
+    top: 0px;
     position: absolute;
 }
 
-.Fondo {
+.Rectangulodefooter {
     width: 1337px;
-    height: 1284px;
-    left: 0px;
-    top: 0px;
-}
-
-.Rectangle4 {
-    width: 1337px;
-    height: 235px;
+    height: 154px;
     left: 0px;
     top: 1049px;
+    position: absolute;
     background: #1B1B1B;
 }
 
@@ -50,16 +27,19 @@
     height: 693px;
     left: 655px;
     top: 197px;
+    position: absolute;
     background: linear-gradient(180deg, rgba(155, 196, 248, 0) 0%, rgba(145.12, 236.94, 231.43, 0.28) 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 64px;
 }
 
-.Rectangle2 {
+.Mapa {
     width: 552px;
     height: 401px;
     left: 696px;
     top: 464px;
+    position: absolute;
+    background: #136C27;
     border-radius: 48px;
 }
 
@@ -68,6 +48,7 @@
     height: 42px;
     left: 731px;
     top: 391px;
+    position: absolute;
 }
 
 .Cel1 {
@@ -75,6 +56,7 @@
     height: 44px;
     left: 738px;
     top: 318px;
+    position: absolute;
 }
 
 .Timebi {
@@ -82,6 +64,7 @@
     height: 52px;
     left: 696px;
     top: 229px;
+    position: absolute;
     text-align: center;
     color: black;
     font-size: 54px;
@@ -90,11 +73,12 @@
     word-wrap: break-word;
 }
 
-.numerodetelefono {
+.Numerodecel {
     width: 287px;
     height: 52px;
     left: 809px;
     top: 318px;
+    position: absolute;
     text-align: center;
     color: black;
     font-size: 41px;
@@ -103,11 +87,12 @@
     word-wrap: break-word;
 }
 
-.TimebiCompanyCom {
+.Gmailarribademap {
     width: 480px;
     height: 52px;
     left: 788px;
     top: 388px;
+    position: absolute;
     text-align: center;
     color: black;
     font-size: 41px;
@@ -121,6 +106,7 @@
     height: 52px;
     left: 33px;
     top: 355px;
+    position: absolute;
     text-align: center;
     color: black;
     font-size: 54px;
@@ -132,6 +118,7 @@
 .Contact0505 {
     left: 46px;
     top: 318px;
+    position: absolute;
     text-align: center;
     color: black;
     font-size: 32px;
@@ -140,11 +127,12 @@
     word-wrap: break-word;
 }
 
-.Rectangle3 {
+.Semicirculodelsubmit {
     width: 623px;
     height: 70px;
     left: 13px;
     top: 795px;
+    position: absolute;
     background: #D5535D;
     border-radius: 41px;
 }
@@ -152,6 +140,7 @@
 .Submit {
     left: 278px;
     top: 811px;
+    position: absolute;
     text-align: center;
     color: white;
     font-size: 32px;
@@ -163,83 +152,41 @@
 .Youtubelogo1 {
     width: 50px;
     height: 50px;
-    left: 759px;
-    top: 1082px;
+    left: 745px;
+    top: 1076px;
+    position: absolute;
 }
 
 .Twitterlogo1 {
     width: 50px;
     height: 50px;
-    left: 682px;
-    top: 1082px;
+    left: 668px;
+    top: 1076px;
+    position: absolute;
 }
 
 .Pinterestlogo1 {
     width: 50px;
     height: 50px;
-    left: 528px;
-    top: 1082px;
+    left: 514px;
+    top: 1076px;
+    position: absolute;
 }
 
 .Facebooklogo1 {
     width: 50px;
     height: 50px;
-    left: 605px;
-    top: 1082px;
+    left: 591px;
+    top: 1076px;
+    position: absolute;
 }
 
-.Maps1 {
-    width: 21px;
-    height: 20px;
-    left: 809px;
-    top: 1153px;
-}
-
-.Gmail2 {
-    width: 21px;
-    height: 20px;
-    left: 299px;
-    top: 1153px;
-}
-
-.Cel2 {
-    width: 21px;
-    height: 20px;
-    left: 602px;
-    top: 1153px;
-}
-
-.TimebiCompanyCom {
-    width: 250px;
-    height: 26px;
-    left: 310px;
-    top: 1152px;
-    text-align: center;
-    color: #EE9732;
-    font-size: 20px;
-    font-family: Tinos;
-    font-weight: 400;
-    word-wrap: break-word;
-}
-
-.numerodetelefono {
-    width: 158px;
-    height: 26px;
-    left: 617px;
-    top: 1152px;
-    text-align: center;
-    color: #EE9732;
-    font-size: 20px;
-    font-family: Tinos;
-    font-weight: 400;
-    word-wrap: break-word;
-}
-
-.TimebiDigital {
+.Timebidigital {
     width: 965px;
     height: 26px;
-    left: 186px;
-    top: 1212px;
+    left: 153px;
+    top: 1156px;
+    position: absolute;
     text-align: center;
     color: #A09E9B;
     font-size: 20px;
@@ -248,15 +195,30 @@
     word-wrap: break-word;
 }
 
-.CentroSupRateFundaciNAlbertoMotta {
-    width: 350px;
-    height: 26px;
-    left: 812px;
-    top: 1150px;
-    text-align: center;
-    color: #EE9732;
-    font-size: 20px;
-    font-family: Tinos;
-    font-weight: 400;
-    word-wrap: break-word;
+.Yourname {
+    width: 276px;
+    height: 63px;
+    left: 33px;
+    top: 440px;
+    position: absolute;
+    background: #D9D9D9;
 }
+
+.Youremail {
+    width: 266px;
+    height: 63px;
+    left: 347px;
+    top: 440px;
+    position: absolute;
+    background: #D9D9D9;
+}
+
+.Message {
+    width: 586px;
+    height: 240px;
+    left: 27px;
+    top: 529px;
+    position: absolute;
+    background: #D9D9D9;
+}
+

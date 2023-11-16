@@ -1,10 +1,12 @@
-.Fondo11 {
+.Fondo {
     width: 1380px;
     height: 2063px;
     left: 0px;
     top: 8px;
     position: absolute;
 }
+
+/*Aquí Empieza el contenido del About*/
 
 .After {
     width: 675px;
@@ -88,8 +90,8 @@
     word-wrap: break-word;
 }
 
-/* Managers Imagenes */
-.Jaoshhh1 {
+  /* Managers Imagenes */
+.Josh {
     width: 243px;
     height: 445px;
     left: 81px;
@@ -97,7 +99,7 @@
     position: absolute;
 }
 
-.Jairr1 {
+.Jair {
     width: 258px;
     height: 445px;
     left: 393px;
@@ -113,7 +115,7 @@
     position: absolute;
 }
 
-.Aaaa1 {
+.Arelis {
     width: 259px;
     height: 445px;
     left: 1061px;
@@ -320,3 +322,15 @@
     font-weight: 400;
     word-wrap: break-word;
 }
+
+/*Aquí Empieza el Footer*/
+
+.Rectangle1 {
+    width: 1380px;
+    height: 200px;
+    left: 0px;
+    top: 2060px;
+    position: absolute;
+    background: #1B1B1B;
+  }
+  

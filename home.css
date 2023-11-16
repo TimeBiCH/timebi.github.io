@@ -27,15 +27,6 @@
   word-wrap: break-word;
 }
 
-.Rectangle10 {
-  width: 1380px;
-  height: 236px;
-  left: 0px;
-  top: 936px;
-  position: absolute;
-  background: #1B1B1B;
-}
-
 .GuardingMomentsTrackingTime {
   left: 99px;
   top: 559px;
@@ -48,13 +39,13 @@
   word-wrap: break-word;
 }
 
-.TimebiDigitalTime {
-left: 368px;
-top: 1082px;
-position: absolute;
-color: #807B7A;
-font-size: 12px;
-font-family: Inter;
-font-weight: 400;
-word-wrap: break-word;
+/*Aquí Empieza el Footer*/
+
+.Rectangle10 {
+  width: 1380px;
+  height: 200px;
+  left: 0px;
+  top: 936px;
+  position: absolute;
+  background: #1B1B1B;
 }

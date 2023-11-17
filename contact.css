@@ -68,7 +68,7 @@
     color: black;
     font-size: 54px;
     font-family: Tinos;
-    font-weight: 400;
+    font-weight: 490;
     word-wrap: break-word;
 }
 
@@ -162,6 +162,8 @@
     font-family: 'Times New Roman', Times, serif; 
     color: black; 
 }
+
+/*Boton para el Submit*/
 
 .Semicirculodelsubmit {
     width: 623px;

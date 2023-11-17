@@ -58,6 +58,7 @@
     word-wrap: break-word;
 }
 
+/*Imagen*/
 .CeoMaria {
     width: 371px;
     height: 465px;
@@ -66,6 +67,7 @@
     position: absolute;
 }
 
+/*Escritura */
 .Ceo {
     left: 321px;
     top: 546px;

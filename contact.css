@@ -6,7 +6,7 @@
 }
 
 .Fondo {
-    width: 1337px;
+    width: 1360px;
     height: 1203px;
     left: 0px;
     top: 0px;
@@ -14,7 +14,7 @@
 }
 
 .Rectangulodefooter {
-    width: 1337px;
+    width: 1360px;
     height: 154px;
     left: 0px;
     top: 1049px;
@@ -126,6 +126,43 @@
     word-wrap: break-word;
 }
 
+
+.Yourname input[type="name"] {
+    width: 276px;
+    height: 63px;
+    left: 33px;
+    top: 440px;
+    color: black;
+    border: 0px;
+    border-radius: 5px;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Youremail input[type="email"] {
+    width: 266px;
+    height: 63px;
+    left: 347px;
+    top: 440px;
+    color: black;
+    border: 0px;
+    border-radius: 5px;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.CommentBox {
+    width: 583px;
+    height: 238px;
+    left: 35px;
+    top: 529px;
+    border-radius: 5px;
+    position: absolute;
+    background: #ffffff;
+    font-family: 'Times New Roman', Times, serif; 
+    color: black; 
+}
+
 .Semicirculodelsubmit {
     width: 623px;
     height: 70px;
@@ -148,6 +185,30 @@
     word-wrap: break-word;
 }
 
+.Pinterestlogo1 {
+    width: 50px;
+    height: 50px;
+    left: 530px;
+    top: 1076px;
+    position: absolute;
+}
+
+.Facebooklogo1 {
+    width: 50px;
+    height: 50px;
+    left: 600px;
+    top: 1076px;
+    position: absolute;
+}
+
+.Twitterlogo1 {
+    width: 50px;
+    height: 50px;
+    left: 680px;
+    top: 1076px;
+    position: absolute;
+}
+
 .Youtubelogo1 {
     width: 50px;
     height: 50px;
@@ -156,68 +217,17 @@
     position: absolute;
 }
 
-.Twitterlogo1 {
-    width: 50px;
-    height: 50px;
-    left: 668px;
-    top: 1076px;
-    position: absolute;
-}
-
-.Pinterestlogo1 {
-    width: 50px;
-    height: 50px;
-    left: 514px;
-    top: 1076px;
-    position: absolute;
-}
-
-.Facebooklogo1 {
-    width: 50px;
-    height: 50px;
-    left: 591px;
-    top: 1076px;
-    position: absolute;
-}
-
 .Timebidigital {
     width: 965px;
     height: 26px;
-    left: 153px;
+    left: 210px;
     top: 1156px;
     position: absolute;
     text-align: center;
     color: #A09E9B;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Tinos;
     font-weight: 400;
     word-wrap: break-word;
-}
-
-.Yourname {
-    width: 276px;
-    height: 63px;
-    left: 33px;
-    top: 440px;
-    position: absolute;
-    background: #D9D9D9;
-}
-
-.Youremail {
-    width: 266px;
-    height: 63px;
-    left: 347px;
-    top: 440px;
-    position: absolute;
-    background: #D9D9D9;
-}
-
-.Message {
-    width: 586px;
-    height: 240px;
-    left: 27px;
-    top: 529px;
-    position: absolute;
-    background: #D9D9D9;
 }
 

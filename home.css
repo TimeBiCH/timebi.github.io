@@ -13,6 +13,7 @@
   position: absolute;
 }
 
+/*Infomración del Home*/
 .SecurityChangeImprovement {
   width: 676px;
   left: 14px;
@@ -68,6 +69,7 @@
   background: #1B1B1B;
 }
 
+/*Redes Socieles*/
 .Youtubelogo1 {
   width: 50px;
   height: 50px;
@@ -100,20 +102,7 @@
   position: absolute;
 }
 
-.Timebidigital {
-  width: 1300px;
-  height: 26px;
-  left: 21px;
-  top: 152px;
-  position: absolute;
-  text-align: center;
-  color: #A09E9B;
-  font-size: 16px;
-  font-family: Tinos;
-  font-weight: 400;
-  word-wrap: break-word;
-}
-
+/*Información que esta a lado de las redes sociales*/
 .Maps1 {
   width: 20px;
   height: 20px;
@@ -175,6 +164,22 @@
   text-align: center;
   color: white;
   font-size: 20px;
+  font-family: Tinos;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+/*El pie de pagina de pie de pagina*/
+
+.Timebidigital {
+  width: 1300px;
+  height: 26px;
+  left: 21px;
+  top: 152px;
+  position: absolute;
+  text-align: center;
+  color: #A09E9B;
+  font-size: 16px;
   font-family: Tinos;
   font-weight: 400;
   word-wrap: break-word;

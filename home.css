@@ -39,6 +39,17 @@
   word-wrap: break-word;
 }
 
+/*Video del Telefono*/
+
+.Telefono3d1 {
+  width: 400px;
+  height: 800px;
+  left: 820px;
+  top: 75px;
+  position: absolute;
+  border-radius: 70px;
+}
+
 /*Aquí Empieza el Footer*/
 
 .Footer {

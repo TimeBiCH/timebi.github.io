@@ -1,13 +1,17 @@
+/* Ajustamos la altura de HTML al 100% para un mejor manejo de diseño */
 html {
   height: 100%;
 }
+
+/* Hacemos un reinicio básico eliminando márgenes y rellenos, y aplicamos un fondo degradado al cuerpo */
 body {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   font-family: sans-serif;
   background: linear-gradient(#0985a7, #d0dae6);
 }
 
+/* Estilizamos la caja de inicio de sesión para que luzca bien en el centro de la pantalla */
 .login-box {
   position: absolute;
   top: 50%;
@@ -15,12 +19,13 @@ body {
   width: 400px;
   padding: 40px;
   transform: translate(-50%, -50%);
-  background: rgba(0,0,0,.5);
+  background: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
 }
 
+/* Personalizamos el título de la caja de inicio de sesión para que sea llamativo y centrado */
 .login-box h2 {
   margin: 0 0 30px;
   padding: 0;
@@ -28,10 +33,12 @@ body {
   text-align: center;
 }
 
+/* Damos estilo a la caja de entrada del usuario para que se vea ordenada */
 .login-box .user-box {
   position: relative;
 }
 
+/* Mejoramos el aspecto del campo de entrada del usuario */
 .login-box .user-box input {
   width: 100%;
   padding: 10px 0;
@@ -43,17 +50,20 @@ body {
   outline: none;
   background: transparent;
 }
+
+/* Añadimos una animación a la etiqueta sobre el campo de entrada del usuario cuando es válido */
 .login-box .user-box label {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   padding: 10px 0;
   font-size: 16px;
   color: #fff;
   pointer-events: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 
+/* Mejoramos el diseño de la etiqueta cuando el campo de entrada es válido */
 .login-box .user-box input:valid ~ label {
   top: -20px;
   left: 0;
@@ -61,6 +71,7 @@ body {
   font-size: 12px;
 }
 
+/* Personalizamos el aspecto del enlace/botón dentro del formulario para atraer la atención */
 .login-box form a {
   position: relative;
   display: inline-block;
@@ -70,11 +81,12 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
-  transition: .5s;
+  transition: 0.5s;
   margin-top: 40px;
-  letter-spacing: 4px
+  letter-spacing: 4px;
 }
 
+/* Añadimos un efecto visual al pasar el ratón sobre el enlace/botón para que sea más interactivo */
 .login-box a:hover {
   background: #66c0c4;
   color: #fff;
@@ -85,11 +97,13 @@ body {
               0 0 100px #42aeb4;
 }
 
+/* Creamos animaciones para los elementos visuales dentro del enlace/botón para un toque dinámico */
 .login-box a span {
   position: absolute;
   display: block;
 }
 
+/* Animación para el primer elemento visual */
 .login-box a span:nth-child(1) {
   top: 0;
   left: -100%;
@@ -99,15 +113,17 @@ body {
   animation: btn-anim1 1s linear infinite;
 }
 
+/* Fotogramas clave para la animación del primer elemento visual */
 @keyframes btn-anim1 {
   0% {
     left: -100%;
   }
-  50%,100% {
+  50%, 100% {
     left: 100%;
   }
 }
 
+/* Animación para el segundo elemento visual */
 .login-box a span:nth-child(2) {
   top: -100%;
   right: 0;
@@ -115,18 +131,20 @@ body {
   height: 100%;
   background: linear-gradient(180deg, transparent, #03e9f4);
   animation: btn-anim2 1s linear infinite;
-  animation-delay: .25s
+  animation-delay: 0.25s;
 }
 
+/* Fotogramas clave para la animación del segundo elemento visual */
 @keyframes btn-anim2 {
   0% {
     top: -100%;
   }
-  50%,100% {
+  50%, 100% {
     top: 100%;
   }
 }
 
+/* Animación para el tercer elemento visual */
 .login-box a span:nth-child(3) {
   bottom: 0;
   right: -100%;
@@ -134,18 +152,20 @@ body {
   height: 2px;
   background: linear-gradient(270deg, transparent, #03e9f4);
   animation: btn-anim3 1s linear infinite;
-  animation-delay: .5s
+  animation-delay: 0.5s;
 }
 
+/* Fotogramas clave para la animación del tercer elemento visual */
 @keyframes btn-anim3 {
   0% {
     right: -100%;
   }
-  50%,100% {
+  50%, 100% {
     right: 100%;
   }
 }
 
+/* Animación para el cuarto elemento visual */
 .login-box a span:nth-child(4) {
   bottom: -100%;
   left: 0;
@@ -153,14 +173,15 @@ body {
   height: 100%;
   background: linear-gradient(360deg, transparent, #03e9f4);
   animation: btn-anim4 1s linear infinite;
-  animation-delay: .65s
+  animation-delay: 0.65s;
 }
 
+/* Fotogramas clave para la animación del cuarto elemento visual */
 @keyframes btn-anim4 {
   0% {
     bottom: -100%;
   }
-  50%,100% {
+  50%, 100% {
     bottom: 100%;
   }
 }

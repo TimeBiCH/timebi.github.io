@@ -1,9 +1,8 @@
-/* Ajustamos la altura de HTML al 100% para un mejor manejo de diseño */
 html {
   height: 100%;
 }
 
-/* Hacemos un reinicio básico eliminando márgenes y rellenos, y aplicamos un fondo degradado al cuerpo */
+/*fondo degradado De la Pagina*/
 body {
   margin: 0;
   padding: 0;
@@ -11,7 +10,7 @@ body {
   background: linear-gradient(#0985a7, #d0dae6);
 }
 
-/* Estilizamos la caja de inicio de sesión para que luzca bien en el centro de la pantalla */
+/* La caja de inicio de sesión para que luzca en el centro de la pantalla */
 .login-box {
   position: absolute;
   top: 50%;
@@ -25,7 +24,7 @@ body {
   border-radius: 10px;
 }
 
-/* Personalizamos el título de la caja de inicio de sesión para que sea llamativo y centrado */
+/* título de la caja de inicio de sesión para que sea centrado */
 .login-box h2 {
   margin: 0 0 30px;
   padding: 0;
@@ -33,7 +32,7 @@ body {
   text-align: center;
 }
 
-/* Damos estilo a la caja de entrada del usuario para que se vea ordenada */
+/* La caja de entrada del usuario para que se vea ordenada */
 .login-box .user-box {
   position: relative;
 }
@@ -51,7 +50,7 @@ body {
   background: transparent;
 }
 
-/* Añadimos una animación a la etiqueta sobre el campo de entrada del usuario cuando es válido */
+/* Animación a la etiqueta sobre el campo de entrada del usuario cuando es válido */
 .login-box .user-box label {
   position: absolute;
   top: 0;
@@ -63,7 +62,7 @@ body {
   transition: 0.5s;
 }
 
-/* Mejoramos el diseño de la etiqueta cuando el campo de entrada es válido */
+/* Diseño de la etiqueta cuando el campo de entrada es válido */
 .login-box .user-box input:valid ~ label {
   top: -20px;
   left: 0;
@@ -71,7 +70,7 @@ body {
   font-size: 12px;
 }
 
-/* Personalizamos el aspecto del enlace/botón dentro del formulario para atraer la atención */
+/* Aspecto del enlace/botón dentro del formulario */
 .login-box form a {
   position: relative;
   display: inline-block;
@@ -86,7 +85,7 @@ body {
   letter-spacing: 4px;
 }
 
-/* Añadimos un efecto visual al pasar el ratón sobre el enlace/botón para que sea más interactivo */
+/* Efecto visual al pasar el ratón sobre el enlace/botón */
 .login-box a:hover {
   background: #66c0c4;
   color: #fff;
@@ -97,7 +96,7 @@ body {
               0 0 100px #42aeb4;
 }
 
-/* Creamos animaciones para los elementos visuales dentro del enlace/botón para un toque dinámico */
+/* Animaciones para los elementos visuales dentro del enlace/botón */
 .login-box a span {
   position: absolute;
   display: block;

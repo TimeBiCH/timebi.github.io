@@ -12,7 +12,7 @@ body{
 nav{
     height: 4rem;
     width: 100vw;
-    background-image: url(5.png);
+    background-image: url(Fondo_del_nav.png);
     box-shadow: 0 3px 20px rgb(30, 27, 232);
     display: flex;
     position: fixed;

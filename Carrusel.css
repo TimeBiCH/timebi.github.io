@@ -1,36 +1,42 @@
+/* Estilo del contenedor principal del slider */
 .slider {
-	width: 98%;
-	margin: auto;
-	overflow: hidden;
+	width: 98%; /* Ancho del slider */
+	margin: auto; 
+	overflow: hidden; 
 }
 
+/* Estilo de la lista no ordenada que contiene las imágenes */
 .slider ul {
 	display: flex;
-	padding: 0;
-	width: 400%;
-	
+	padding: 0; 
+	width: 400%; 
+
+	/* Animación que controla el desplazamiento de las imágenes */
 	animation: cambio 20s infinite alternate linear;
 }
 
+/* Estilo de cada elemento de la lista (cada imagen) */
 .slider li {
-	width: 100%;
-	list-style: none;
+	width: 100%; 
+	list-style: none; 
 }
 
+/* Estilo de las imágenes dentro de cada elemento de la lista */
 .slider img {
-	width: 100%;
+	width: 100%; 
 }
 
+/* Definición de la animación "cambio" con varios puntos clave para el desplazamiento */
 @keyframes cambio {
-	0% {margin-left: 0;}
-	20% {margin-left: 0;}
-	
-	25% {margin-left: -100%;}
-	45% {margin-left: -100%;}
-	
-	50% {margin-left: -200%;}
-	70% {margin-left: -200%;}
-	
-	75% {margin-left: -300%;}
-	100% {margin-left: -300%;}
+	0% {margin-left: 0;} /* Inicio: margen izquierdo cero (primera imagen visible) */
+	20% {margin-left: 0;} /* Permanece en la primera imagen hasta el 20% del tiempo total */
+
+	25% {margin-left: -100%;} /* Comienza a desplazar hacia la segunda imagen en el 25% del tiempo */
+	45% {margin-left: -100;} /* Permanece en la segunda imagen hasta el 45% del tiempo */
+
+	50% {margin-left: -200%;} /* Comienza a desplazar hacia la tercera imagen en el 50% del tiempo */
+	70% {margin-left: -200%;} /* Permanece en la tercera imagen hasta el 70% del tiempo */
+
+	75% {margin-left: -300%;} /* Comienza a desplazar hacia la cuarta imagen en el 75% del tiempo */
+	100% {margin-left: -300%;} /* Permanece en la cuarta imagen hasta el final del tiempo */
 }

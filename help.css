@@ -13,6 +13,9 @@
     position: absolute;
 }
 
+/*Infomración del Help*/
+
+/*Infomración del Help 1° bloque*/
 .HowWeHelp {
     left: 568px;
     top: 43px;
@@ -37,6 +40,8 @@
     font-weight: 400;
     word-wrap: break-word;
 }
+
+/*Infomración del Help 2° bloque*/
 
 .ImagenEmpresarial1 {
     width: 586px;
@@ -123,6 +128,8 @@
     top: 756px;
     position: absolute;
 }
+
+/*Infomración del Help 3° bloque*/
 
 .Relojicon1 {
     width: 122px;

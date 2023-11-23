@@ -1,0 +1,390 @@
+.Home {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: rgba(255, 255, 255, 0);
+}
+
+.Fondoblanco1 {
+    width: 1357px;
+    height: 2116px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.HowWeHelp {
+    left: 568px;
+    top: 43px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+
+.Withtheuse {
+    width: 1090px;
+    left: 124px;
+    top: 124px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.ImagenEmpresarial1 {
+    width: 586px;
+    height: 334px;
+    left: 71px;
+    top: 378px;
+    position: absolute;
+}
+
+.Rectangle1 {
+    width: 586px;
+    height: 335px;
+    left: 681px;
+    top: 378px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ImprovesSelfAwareness {
+    left: 790px;
+    top: 402px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.BeingAProcess {
+    width: 533px;
+    left: 707px;
+    top: 493px;
+    position: absolute;
+    text-align: justify;
+    color: black;
+    font-size: 32px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Rectangle2 {
+    width: 586px;
+    height: 335px;
+    left: 71px;
+    top: 755px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ReductionOfDigitalAddictions {
+    left: 128px;
+    top: 767px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.BySettingLimits {
+    width: 533px;
+    left: 97px;
+    top: 856px;
+    position: absolute;
+    text-align: justify;
+    color: black;
+    font-size: 32px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.ImagenEmpresarial2 {
+    width: 586px;
+    height: 334px;
+    left: 681px;
+    top: 756px;
+    position: absolute;
+}
+
+.Relojicon1 {
+    width: 122px;
+    height: 125.97px;
+    left: 162px;
+    top: 1172px;
+    position: absolute;
+}
+
+.Rectangle3 {
+    width: 380px;
+    height: 262px;
+    left: 45px;
+    top: 1308px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.EffectiveTimeManagement {
+    width: 343px;
+    left: 60px;
+    top: 1329px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.TimebiHelps {
+    width: 343px;
+    left: 60px;
+    top: 1433px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Calendari1 {
+    width: 122.42px;
+    height: 119px;
+    left: 608px;
+    top: 1172px;
+    position: absolute;
+}
+
+.Rectangle4 {
+    width: 380px;
+    height: 262px;
+    left: 481px;
+    top: 1308px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.FamilyBonding {
+    width: 343px;
+    left: 479px;
+    top: 1337px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Spending {
+    width: 343px;
+    left: 497px;
+    top: 1439px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Medallaicon1 {
+    width: 118px;
+    height: 118.95px;
+    left: 612px;
+    top: 1617px;
+    position: absolute;
+}
+
+.Rectangle5 {
+    width: 380px;
+    height: 262px;
+    left: 479px;
+    top: 1749px;
+    position: absolute;
+    background: rgb(224, 1, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.EnhancedProductivity {
+    width: 343px;
+    left: 921px;
+    top: 1329px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.ByReducing {
+    width: 343px;
+    left: 931px;
+    top: 1439px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Cuadritosicon1 {
+    width: 122.63px;
+    height: 119px;
+    left: 162px;
+    top: 1617px;
+    position: absolute;
+}
+
+.Rectangle6 {
+    width: 380px;
+    height: 262px;
+    left: 45px;
+    top: 1749px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.EducationalValue {
+    width: 273px;
+    left: 95px;
+    top: 1776px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.TimebiCanHelps {
+    width: 343px;
+    left: 64px;
+    top: 1858px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Medallaicon1 {
+    width: 118px;
+    height: 118.95px;
+    left: 532px;
+    top: 1617px;
+    position: absolute;
+}
+
+.Rectangle7 {
+    width: 380px;
+    height: 262px;
+    left: 479px;
+    top: 1749px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.MentalWellBeing {
+    width: 273px;
+    left: 532px;
+    top: 1776px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Managing {
+    width: 343px;
+    left: 493px;
+    top: 1858px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Personaicon1 {
+    width: 120.18px;
+    height: 119px;
+    left: 1043px;
+    top: 1617px;
+    position: absolute;
+}
+
+.Rectangle8 {
+    width: 380px;
+    height: 262px;
+    left: 913px;
+    top: 1749px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.TimeForHobbiesAndPassions {
+    width: 319px;
+    left: 946px;
+    top: 1776px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.ByReducting {
+    width: 343px;
+    left: 926px;
+    top: 1880px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-family: Tinos;
+    font-weight: 400;
+    word-wrap: break-word;
+}
